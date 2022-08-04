@@ -11,8 +11,6 @@ This repo contains:
 
 # C dfhead.exe
 
-## Simple gcc compile & run steps:
-
 This is a C program that you can use 
 to read from a row you specify 
 to a row you specify in a .csv file.
@@ -41,6 +39,7 @@ To:
 #### df_head.py mimics the pandas operation: df.head()
 
 # Instruction To Compile Yourself
+## Simple gcc compile & run steps:
 
 #### Step 1: Compile
 ```
