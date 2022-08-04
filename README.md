@@ -2,8 +2,8 @@
 df.head() type file inspector in C language
 
 ## Two Versions
-### 1. all command line, automation friendly
-### 2. Q&A input, human executable friendly
+1. all command line, automation friendly
+2. Q&A input, human executable friendly
 
 # C dfhead.exe
 
