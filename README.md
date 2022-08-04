@@ -38,7 +38,7 @@ To:
 
 #### df_head.py mimics the pandas operation: df.head()
 
-# Instruction To Compile Yourself
+# Instructions To Compile Code Yourself
 ## Simple gcc compile & run steps:
 
 #### Step 1: Compile
