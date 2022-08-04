@@ -1,7 +1,11 @@
 ### csv_tool_read_column_header_line_c
 df.head() type file inspector in C language
 
-## Two Versions
+This repo contains:
+- the source code to compile yourself, and/or 
+- the .exe to download and run
+
+### Two Versions
 1. all command line, automation friendly
 2. Q&A input, human executable friendly
 
@@ -9,18 +13,30 @@ df.head() type file inspector in C language
 
 ## Simple gcc compile & run steps:
 
-This is a C program read from a row you specify to a row you specify in a .csv file.
-E.g. if you want it to mimic the pandas operation: df.head(), then you can input: 
+This is a C program that you can use 
+to read from a row you specify 
+to a row you specify in a .csv file.
+
+E.g. if you want it to mimic the pandas operation: df.head(), then you can input (in the all command line version): 
 ```
 path/this_file.csv 0 5
+```
+or 
+```
+Q: "Enter the filepath and name of the .csv you want to read:"
+A: path/this_file.csv
+
+Q: Enter an integer: What data_row to start reading from?
+A: 0 
+
+Q: Enter an integer: What data_row to read to? (where to end)
+A: 5
 ```
 To: 
 - print the column headers
 - print the 5 rows of data (from zero to five, as specified)
 
-This repo contains:
-- the source code to compile yourself, and/or 
-- the .exe to download and run
+
 
 #### df_head.py mimics the pandas operation: df.head()
 
@@ -39,7 +55,6 @@ Remember: Three inputs are passed when you call this file:
 ```
 $ ./dfhead.exe NAME_OF_YOUR_FILE_TO_READ STARTING_ROW END_ROW 
 ```
-
 
 # Version One Source File:
 
