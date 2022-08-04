@@ -68,7 +68,7 @@ int main(int argc, char **argv)
     /////////////////////////
     
     /* Get each line until there are none left */
-    while (fgets(line, MAX_LINE_LENGTH, file) && (line_count <= read_to_here)){
+    while (fgets(line, MAX_LINE_LENGTH, file) && (line_count <= read_to_here+1)){
     
     	// read only in the range specified in input
         if (line_count >= read_from_here){
@@ -80,7 +80,7 @@ int main(int argc, char **argv)
 	    so the first row is kind of row "-2"
 	    The data-science dataframe row numbers are important to use here.
 	    */
-	    printf("data_row[%d]: %s", ++line_count-1, line);
+	    printf("data_row[%d]: %s", ++line_count-2, line);
 		
 	    /* Add a trailing newline to lines that don't already have one */
 	    if (line[strlen(line) - 1] != '\n'){
@@ -114,4 +114,3 @@ int main(int argc, char **argv)
     //final exit of program
     return 0;
 }
-
