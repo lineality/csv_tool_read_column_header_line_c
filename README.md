@@ -55,7 +55,7 @@ Remember: Three inputs are passed when you call this file:
 $ ./dfhead.exe NAME_OF_YOUR_FILE_TO_READ STARTING_ROW END_ROW 
 ```
 
-# Version One Source File:
+# Version One Source Code: all on command line
 
 ```
 /* 
@@ -180,7 +180,7 @@ int main(int argc, char **argv)
 
 
 
-# Version Two Source File: User Q&A guided
+# Version Two Source Code: user Q&A prompt guided
 ```
 /* 
 x86 executable reads .csv file, offset and end.
