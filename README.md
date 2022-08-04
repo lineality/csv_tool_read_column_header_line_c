@@ -19,7 +19,7 @@ E.g. if you want it to mimic the pandas operation: df.head(), then you can input
 ```
 path/this_file.csv 0 5
 ```
-or 
+or (in the user Q&A prompt version)
 ```
 Q: "Enter the filepath and name of the .csv you want to read:"
 A: path/this_file.csv
