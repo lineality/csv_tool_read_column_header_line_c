@@ -1,9 +1,21 @@
 ### csv_tool_read_column_header_line_c
 df.head() type file inspector in C language
 
-## Download Executable
+# Cheatsheet
+
+#### Step 2:  Download Executable
 click or save-as this link:
 https://github.com/lineality/csv_tool_read_column_header_line_c/blob/main/dfhead.exe?raw=true 
+
+#### Step 2: setup to be able to run the file on your system
+```
+$ sudo chmod +x ./dfhead.exe
+```
+
+#### Step 3: setup to be able to run the file on your system
+```
+$ ./dfhead.exe NAME_OF_YOUR_FILE_TO_READ STARTING_ROW END_ROW 
+```
 
 This repo contains:
 - the source code to compile yourself, and/or 
