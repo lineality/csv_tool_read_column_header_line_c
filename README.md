@@ -3,7 +3,7 @@ df.head() type file inspector in C language
 
 # Cheatsheet
 
-#### Step 2:  Download Executable
+#### Step 1:  Download Executable
 click or save-as this link:
 https://github.com/lineality/csv_tool_read_column_header_line_c/blob/main/dfhead.exe?raw=true 
 
